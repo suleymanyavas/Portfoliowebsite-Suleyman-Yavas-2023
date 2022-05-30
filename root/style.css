@@ -1,7 +1,8 @@
 nav{
-    background: rgb(106,48,48);
+   /* background: rgb(106,48,48);
 background: linear-gradient(90deg, rgba(106,48,48,1) 0%, rgba(142,144,46,1) 50%, rgba(47,149,170,1) 100%);
-    color: white !important;
+    color: white !important;*/
+    background-color: #525e65;
  
     font-family: 'Roboto', sans-serif !important;
 }
@@ -40,6 +41,7 @@ background: linear-gradient(90deg, rgba(106,48,48,1) 0%, rgba(142,144,46,1) 50%,
 font-size: 100px !important;
 font-style: italic;
 font-weight: bold;
+color: navajowhite;
 font-family: 'roboto',sans-serif !important;
 
 
@@ -55,30 +57,31 @@ font-family: 'roboto',sans-serif !important;
 }
 
 
-.footer{
+footer{
     z-index: 10;
  position: fixed;
+ background-color: #525e65 !important;
 }
 
-
+.footer-copyright{
+    color: navajowhite;
+}
 
 
 #facebook{
     font-size: 35px;
+    color: navajowhite;
 }
 
 #linked{
     font-size: 35px;
+    color: navajowhite;
 }
 
 #insta{
-    color: #405DE6;
+    color: navajowhite;
     font-size: 35px;
 }
-#bodycontact{
-   /* background: linear-gradient(to top, #eacda3  0%, #d6ae7b 100%);*/
-    background-image: url("/images/daria-nepriakhina-guiQYiRxkZY-unsplash.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+body{
+    background-color: #222733;
 }
