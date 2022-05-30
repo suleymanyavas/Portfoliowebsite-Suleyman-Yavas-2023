@@ -67,7 +67,11 @@ footer{
     color: navajowhite;
 }
 
-
+#btn-contact{
+    background-color:#525e65;
+    color: navajowhite;
+    border: navajowhite;
+}
 #facebook{
     font-size: 35px;
     color: navajowhite;
